@@ -1,0 +1,188 @@
+.body {
+    background-color: #f8f8f8;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 20px;
+}
+.header {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+
+.header img {
+    max-width: 30%;
+    height: auto;
+}
+
+/* Стили для меню */
+nav {
+    margin-top: 10px;
+}
+nav a:hover {
+    color: #ff5500; /* Произвольный цвет */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Каждое слово с большой буквы в текстовых полях */
+.input[type="text"] {
+    text-transform: capitalize;
+}
+
+/* Стили для таблицы технических характеристик на странице товара каталога */
+.product-details table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.product-details table, .product-details th, .product-details td {
+    border: 1px solid #ddd;
+}
+
+.product-details th, .product-details td {
+    padding: 10px;
+}
+
+/* Произвольный стиль для исчезающей рамки при наведении на изображения */
+.product-images img:hover {
+    border: none;
+}
+
+/* Первая буква первого слова параграфа с другим шрифтом и размером */
+.product-description p::first-letter {
+    font-size: 1.5em;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Создание таблицы размером 4*5 */
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.custom-table th, .custom-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Объединение ячеек */
+.custom-table th {
+    background-color: #f2f2f2;
+}
+
+.custom-table th.colspan {
+    text-align: center;
+}
+
+/* Задание высоты для верхней строки таблицы */
+.custom-table th:first-child {
+    height: 50px; /* Произвольная высота */
+}
+.menu li {
+    font-style: times;
+    font-size: 18px;
+    list-style-type: none;
+}
+
+.menu li a {
+    color: black;
+}
+
+.txt {
+    color: black;
+    font-size: 18px;
+    font-weight: 400px;
+    background-color: #eaeaea;
+}
+.info{
+font-family: 'Times New Roman', Times, serif;
+color: black;
+}
+.krO ol {
+    font-style: times;
+    font-size: 18px;
+    list-style-type: none;
+    color: black;
+}
+.h2 {
+    color: #333;
+}
+.sb2 {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.sb {
+    color: #d14545;
+}
+.Ktimg {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.ul {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+li {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+.contact-info input[type="email"]{
+    font-family: 'Times New Roman', Times, serif; 
+}
+/* Стили для текстового поля "Email" при фокусе */
+.contact-info input[type="email"]:focus {
+    color: #009688; /* Новый цвет текста при фокусе */
+    background-color: #e0f2f1; /* Новый цвет фона при фокусе */
+    border: 1px solid #009688; /* Новый цвет рамки при фокусе */
+    font-family:monospace
+}
+.btn {
+    margin-left: 3%;
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #027ce7; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+   }
+.table {
+    width: 80%;
+    border-collapse: collapse;
+}
+  
+.th, .td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+.th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+.tr:first-child {
+    height: 50px; 
+  }
